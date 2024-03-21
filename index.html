@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content-box">
+        <form action="#" class="text-form">
+            <fieldset class="text-container">
+                <textarea name="incomig-text" class="incoming-text" id="incoming-text" placeholder="Введіть текст"></textarea>
+                <output class="output-text"></output>
+            </fieldset>
+            <fieldset class="languages">
+                <legend>Оберіть мову</legend>
+                <div>
+                    <label for="input-language">Мова оригіналу</label>
+                    <select name="input-language" id="input-language" class="language-select"></select>
+                </div>
+                <div>
+                    <label for="output-language">Мова перекладу</label>
+                    <select name="output-language" id="output-language" class="language-select"></select>
+                </div>
+            </fieldset>
+            <fieldset class="btn-wraper">
+                <button type="submit" class="form-btn">ПЕРЕКЛАСТИ</button>
+            </fieldset>
+
+           </form>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
